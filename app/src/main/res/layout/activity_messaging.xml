@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_messaging"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="jacksonmeyer.com.sidekck.MainActivity">
+    tools:context="jacksonmeyer.com.sidekck.MessagingActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -17,16 +16,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
-
-        <View
-            android:layout_width="175dp"
-            android:layout_height="3dp"
-            android:layout_gravity="center"
-            android:background="#eee"
-            android:layout_marginTop="5dp"
-            android:layout_below="@id/sidekickTextView"
-            android:layout_centerHorizontal="true"
-            android:id="@+id/view" />
 
         <ImageView
             android:layout_width="40dp"
@@ -44,38 +33,18 @@
             android:layout_height="40dp"
             android:id="@+id/sidekickTextView"
             android:textSize="40sp"
-            android:textColor="#eee"
+            android:textColor="#000"
             android:layout_centerHorizontal="true" />
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginRight="5dp"
-            android:src="@mipmap/sendBlack"
+            android:src="@mipmap/sendWhite"
             android:layout_marginTop="7dp"
             android:id="@+id/messagingImageView"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
-
     </RelativeLayout>
-
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        app:srcCompat="@mipmap/AddIcon"
-        android:layout_marginBottom="13dp"
-        android:id="@+id/addPostButton"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:text="Get Facebook info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/addPostButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="123dp"
-        android:id="@+id/getFacebookInfoButton" />
 </RelativeLayout>
-
