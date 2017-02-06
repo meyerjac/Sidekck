@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "241292521036",
+    "firebase_url": "https://sidekick-3578e.firebaseio.com",
+    "project_id": "sidekick-3578e",
+    "storage_bucket": "sidekick-3578e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241292521036:android:188a22d3fe7d7e28",
+        "android_client_info": {
+          "package_name": "jacksonmeyer.com.sidekck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241292521036-e1j0d2f99cjbbv1tmds284iqo700khp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTc8avrFXpfLVUh8UBSSGkSsGZZsy1_oE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241292521036-e1j0d2f99cjbbv1tmds284iqo700khp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
